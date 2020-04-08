@@ -1,0 +1,15 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon --exec mocha -R min"
+  },
+  "author": "Sharma Nawanit",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.1.1",
+    "mongoose": "^5.9.7"
+  }
+}
