@@ -6,7 +6,6 @@ describe('Creating records',()=>{
        const joe = new User({name:'Joe'}); 
         joe.save()
         .then(()=>{
-            console.log(JSON.stringify.joe);
             assert(!joe.isNew);
             done();
         })
