@@ -48,6 +48,5 @@ describe("Updating records",()=>{
         assert(user.postCount === 1);
         done();
       });
-  })
-
+  });
 });
