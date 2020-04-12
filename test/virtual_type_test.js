@@ -14,7 +14,7 @@ describe("Virtual Types",()=>{
             console.log(JSON.stringify(user.posts));
             assert(user.postCount === 1);
             done();
-        })
+        });
     });
 
 });
