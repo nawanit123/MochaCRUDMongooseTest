@@ -18,7 +18,7 @@ describe("Asscociations",()=>{
         .then(()=>done())
     });
 
-    it.only("saves a relation between a user and blogpost",(done)=>{
+    it("saves a relation between a user and blogpost",(done)=>{
         User.findOne({name:"Joe"})
         .populate({
             path:"blogPosts",
