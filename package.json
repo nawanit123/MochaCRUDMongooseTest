@@ -10,7 +10,7 @@
   "author": "Sharma Nawanit",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^7.2.0",
+    "mocha": "^10.2.0",
     "mongoose": "^5.10.9"
   }
 }
